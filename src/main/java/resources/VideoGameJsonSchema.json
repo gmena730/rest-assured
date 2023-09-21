@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "category",
+    "id",
+    "name",
+    "rating",
+    "releaseDate",
+    "reviewScore"
+  ],
+  "properties": {
+    "category": {
+      "type": "string",
+      "default": "",
+      "title": "The category Schema",
+      "examples": [
+        "string"
+      ]
+    },
+    "id": {
+      "type": "integer",
+      "default": 0,
+      "title": "The id Schema",
+      "examples": [
+        0
+      ]
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "title": "The name Schema",
+      "examples": [
+        "string"
+      ]
+    },
+    "rating": {
+      "type": "string",
+      "default": "",
+      "title": "The rating Schema",
+      "examples": [
+        "string"
+      ]
+    },
+    "releaseDate": {
+      "type": "string",
+      "default": "",
+      "title": "The releaseDate Schema",
+      "examples": [
+        "string"
+      ]
+    },
+    "reviewScore": {
+      "type": "integer",
+      "default": 0,
+      "title": "The reviewScore Schema",
+      "examples": [
+        0
+      ]
+    }
+  },
+  "examples": [{
+    "category": "string",
+    "id": 0,
+    "name": "string",
+    "rating": "string",
+    "releaseDate": "string",
+    "reviewScore": 0
+  }]
+}
